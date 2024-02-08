@@ -85,7 +85,7 @@ That's all good and fine, but what if we run into `merge conflicts`???
 
 <img height="300" src="https://ihatetomatoes.net/wp-content/uploads/2020/05/img_merge-conflict.png" alt="conflict" />
 
-*Oh no! There's a merge conflict and I don't know what to do!*
+_Oh no! There's a merge conflict and I don't know what to do!_
 
 With your team, you'll often run into an issue with your pull requests where some members of your team have conflicting code, which will cause merge conflicts when you're merging them into the main branch.
 
@@ -127,8 +127,8 @@ To resolve our merge conflict, we can:
 
 - **Manually remove the unnecessary part from any one of the branches**, and only consider the content of the branch that is important for further use, along with removing the “conflict dividers” from our file.
 - Click on one of the options for accepting changes
-  - Choose *Current Change* if you ***don't*** want the new changes causing the conflict
-  - Choose *Incoming Change* if you ***do*** want the new changes that are causing the conflict
+  - Choose _Current Change_ if you **_don't_** want the new changes causing the conflict
+  - Choose _Incoming Change_ if you **_do_** want the new changes that are causing the conflict
 
 Once the conflict has been resolved, we can use the `git add` command to move the new changes to the staging area, and then `git commit` to commit the changes.
 
